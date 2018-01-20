@@ -1,0 +1,115 @@
+/* 
+Author URI: http://webthemez.com/ 
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7;
+}
+
+::selection {
+	color: #fff;
+	background: #FF5200;
+}
+
+::-moz-selection {
+ color: #fff;
+ background: #FF5200;
+}
+h3, h4, h5, h6, #home .heading strong {
+	font-family: 'Raleway', sans-serif;
+	color: #FFF;
+}
+.animated {
+	/* -webkit-animation-duration: 1s; */
+	animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+.pDark h3 {
+	color: #BEBEBE;
+}
+.countdown {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.styled {
+	margin-bottom: 100px;
+}
+.styled div {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 70px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 25px;
+	height: 100px;
+	text-shadow: none;
+	vertical-align: middle;
+	color: #fff;
+}
+#overlay {
+	background: rgba(0, 0, 0, 0.56) url(../images/overlays/01.html) top left repeat;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	bottom: 0px;
+	opacity: 0.8;
+}
+/* IE7 inline-block hack */
+*+html .styled div {
+	display: inline;
+	zoom: 1;
+}
+.styled div:first-child {
+	/* margin-left: 0; */
+}
+.styled div span {
+	display: block;
+	font-size: 22px;
+	margin-top: -29px;
+	font-weight: normal;
+	text-align: center;
+}
+ .heading h3 {
+	font-size: 36px;
+	margin-top: 67px;
+}
+
+.styled div{
+  width: 150px;
+  height: 150px; 
+  position: relative;
+  padding: 62px 0 0 0;
+}
+.styled div:after {
+  content:'';
+  width: 150px;
+  height: 150px;
+  display: table;
+  border: 1px solid #fff;
+  margin: 50px auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position:absolute;
+  top:0px;
+}
+ @media (max-width:780px){
+.styled div { 
+  margin-top: 20px;
+  margin-bottom: 28px
+  }
+ }
