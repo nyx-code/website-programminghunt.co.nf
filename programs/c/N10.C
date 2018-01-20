@@ -1,0 +1,42 @@
+// Factorial of a Number 
+
+#include <stdio.h>
+#include <conio.h>
+
+long int factorial(int n);
+
+void main()
+
+{
+
+	int n;
+
+	clrscr();
+	printf("Enter the number:\n");
+	scanf("%d", &n);
+	printf("Factorial of %d is %d", n, factorial(n));
+	getch();
+
+}
+
+long int factorial(int n)
+
+{
+
+	if (n <= 1)
+
+	{
+
+		return (1);
+
+	}
+
+	else
+
+	{
+
+		n = n * factorial(n - 1);
+		return (n);
+
+	}
+}

@@ -1,0 +1,26 @@
+// String is Palindrome or Not
+
+#include <iostream.h>
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+
+void main()
+{
+    char a[100], b[100];
+    clrscr();
+    printf("Enter the string to check if it is a palindrome : ");
+    gets(a);
+
+    strcpy(b,a);
+    strrev(b);
+
+    if( strcmp(a,b) == 0 )
+    printf("Entered string is a palindrome.\n");
+    else
+    printf("Entered string is not a palindrome.\n");
+
+    getch();
+}
+
+
